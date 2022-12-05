@@ -2,6 +2,7 @@
 bool carattere (char r, char &t)
 {
     if (r==0||(r>90&&r<97)||(r<65)||r>123){
+       
         return false;
 
     }
