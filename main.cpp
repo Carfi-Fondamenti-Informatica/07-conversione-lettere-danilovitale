@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
    
-char a=0;
+char a=0,b=0;
    cin>>a;
    
    carattere(a);
