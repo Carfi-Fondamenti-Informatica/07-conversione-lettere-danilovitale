@@ -1,5 +1,5 @@
 #include "lib.h"
-bool carattere (char &a, char &b)
+bool carattere (char a, char b)
 {
     if (a==0||(a>90&&a<97)||(a<65)||a>123){
         return false;
