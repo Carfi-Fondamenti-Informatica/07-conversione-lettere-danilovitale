@@ -2,8 +2,6 @@
 #include "lib.h"
 using namespace std;
 
-char b=0;
-
 
 int main(){
    
