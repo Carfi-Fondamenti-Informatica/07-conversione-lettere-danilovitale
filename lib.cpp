@@ -1,7 +1,7 @@
 #include "lib.h"
-char b=0;
 
-bool carattere (char &a)
+
+bool carattere (char &a, char &b)
 {
    if (a==0||(a>90&&a<97)||(a<65)||a>123){
        return false;
