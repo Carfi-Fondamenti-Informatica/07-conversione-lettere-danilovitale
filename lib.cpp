@@ -1,18 +1,18 @@
 #include "lib.h"
-bool carattere (char a, char b)
+bool carattere (char r, char &t)
 {
-    if (a==0||(a>90&&a<97)||(a<65)||a>123){
+    if (r==0||(r>90&&r<97)||(r<65)||r>123){
         return false;
 
     }
     else{
-        if (a>=65&&a<=90)
+        if (r>=65&&r<=90)
         {
-            b=a+32;
+            t=r+32;
 
         }
         else{
-            b=a-32;
+            t=r-32;
 
         }
 
