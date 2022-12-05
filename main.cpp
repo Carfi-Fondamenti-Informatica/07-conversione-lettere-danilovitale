@@ -1,21 +1,19 @@
 #include <iostream>
 #include "lib.h"
 using namespace std;
+int main()
+{
+    char a=0,b=0;
+        bool f;
+        cin>>a;
+        f= carattere(a,b);
+        if (f)
+        {
+            cout << b;
 
-
-int main(){
-   
-char a=0,b=0;
-   cin>>a;
-   
-   carattere(a,b);
-   if (carattere(a,b))
-   {
-      cout << b;
-     
-   }
-   else{
-       cout << "errore";
-   }
-   return 0;
-}
+        }
+        else{
+            cout << "errore";
+        }
+        return 0;
+    }
