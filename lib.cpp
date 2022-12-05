@@ -1,4 +1,5 @@
 #include "lib.h"
+char b=0;
 
 bool carattere (char &a)
 {
