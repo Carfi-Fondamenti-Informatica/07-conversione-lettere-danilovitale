@@ -7,7 +7,7 @@ int main()
 {
     char a=0,b=0;
         bool f;
-        cin>>a;
+        cin>> a;
         f= carattere(a,b);
         if (f)
         {
