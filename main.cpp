@@ -1,5 +1,6 @@
-#include <iostream>
 #include "lib.h"
+#include <iostream>
+
 using namespace std;
 int main()
 {
@@ -15,5 +16,5 @@ int main()
         else{
             cout << "errore";
         }
-        return 0;
-    }
+       return 0;
+}
